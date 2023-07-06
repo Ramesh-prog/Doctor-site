@@ -1,0 +1,176 @@
+/* This is new color combination 
+1. #1B1464
+2. #0077b6
+3. #00b4d8
+4. #caf0f8 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+
+.form_parent {
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+    width: 75%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form_parent h1 {
+    text-align: center;
+}
+
+.form_note{
+    width: 65%;
+    margin: auto;
+    background-color: #caf0f8;
+    border-radius: 20px 0px 20px 0px;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.form_parent_down {
+    width: 65%;
+    background-color: #caf0f8;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px 0px 20px 0px;
+}
+
+
+
+.form_div_two table {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
+
+.form_div_two tr,
+th,
+td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.form_div_one {
+    /* background-color: pink; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+
+.input_radio_form {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ffedd8;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.form_div_one input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ffedd8;
+    border-radius: 10px;
+}
+
+.form_div_one textarea {
+    margin: 5px;
+    border: 1px solid #ffedd8;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form_div_one button {
+    margin: 5px;
+    border: 1px solid #0077b6;
+    background-color: #0077b6;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.form_div_one button:hover {
+    background-color: #00b4d8;
+    border: 1px solid #00b4d8;
+    color: white;
+}
+
+.form_div_two {
+    width: 100%;
+    margin: 10px;
+    /* background-color: green; */
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.form_div_two img {
+    border-radius: 20px 0px 20px 0px;
+}
+
+.form_div_two p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* This is new color combination 
+1. #1B1464
+2. #0077b6
+3. #00b4d8
+4. #caf0f8 */
+
+
+/* 1550 This is for the PC View */
+@media (max-width: 1550px) {}
+
+/* 1210 This is for the Table View */
+@media (max-width: 1210px) {}
+
+/* 910 - This is for the Mobile View */
+@media (max-width: 910px) {
+
+    .form_parent {
+        margin: auto;
+        font-family: 'Noto Sans', sans-serif;
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .form_parent h1 {
+        text-align: center;
+    }
+
+    .form_parent_down {
+        width: 100%;
+        background-color: #caf0f8;
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        border-radius: 20px 0px 20px 0px;
+    }
+
+
+    .form_div_one {
+        margin-top: 20px;
+    }
+
+    .form_div_two img {
+        margin-top: 20px;
+    }
+
+}

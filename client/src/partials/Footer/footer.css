@@ -1,0 +1,51 @@
+/* This is new color combination 
+1. #1B1464
+2. #0077b6
+3. #00b4d8
+4. #caf0f8 */
+
+
+/* This is for the Footer  */
+footer {
+    background-color: #0077b6;
+    padding: 10px;
+    padding-top: 30px;
+    font-family: 'Dongle', sans-serif;
+    color: white;
+    line-height: 0.8;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div {
+    width: 100%;
+}
+
+.navlink_text {
+    text-decoration: none;
+    color: #1B1464;
+}
+
+.navlink_fix {
+    text-decoration: none;
+    color: #1B1464;
+    margin: 10px;
+}
+
+.navlink_fix:hover{
+    color: white;
+}
+
+.fab {
+    padding: 10px;
+    color: #1B1464;
+}
+
+.fab:hover {
+    color: white;
+}
+
+.text-xs {
+    margin-top: 20px;
+}

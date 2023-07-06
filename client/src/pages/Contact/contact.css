@@ -1,0 +1,112 @@
+/* This is new color combination 
+1. #1B1464
+2. #0077b6
+3. #00b4d8
+4. #caf0f8 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+
+
+.parent_contact {
+    width: 65%;
+    /* background-color: yellow; */
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.text_contact {
+    width: 50%;
+    /* background-color: pink; */
+    margin: 20px;
+}
+
+.map_contact {
+    display: flex;
+    align-self: center;
+    width: 60%;
+    /* background-color: green; */
+    flex-direction: column;
+    margin: 20px;
+}
+
+.map_contact iframe {
+    height: 500px;
+    border: 5px solid #0077b6;
+    margin-top: 10px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.contact_docImg_div {
+    display: flex;
+}
+
+.contact_docImg_div img {
+    width: 50%;
+    padding: 5px;
+}
+
+.contact_number_div {
+    background-color: #caf0f8;
+    color: black;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.contact_number_div p {
+    line-height: 1.4;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+
+.link_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.link_div i {
+    line-height: 0.5;
+}
+
+
+
+
+
+/* 1550 This is for the PC View */
+@media (max-width: 1550px) {}
+
+/* 1210 This is for the Table View */
+@media (max-width: 1210px) {}
+
+/* 910 - This is for the Mobile View */
+@media (max-width: 910px) {
+
+    .parent_contact {
+        width: 95%;
+        display: flex;
+        padding-top: 50px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .text_contact {
+        width: 90%;
+        /* background-color: pink; */
+        margin: 20px;
+    }
+
+    .map_contact {
+        display: flex;
+        align-self: center;
+        width: 90%;
+        /* background-color: green; */
+        flex-direction: column;
+        margin: 20px;
+    }
+}

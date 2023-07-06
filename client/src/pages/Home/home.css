@@ -1,0 +1,710 @@
+/* These are some of the color for the website 
+
+red - ef233c
+purple - 662e9b
+black - 221e22
+orange - fa7921 */
+
+
+/* This is the New Blue Color base
+1. 023e8a
+2. 0077b6
+3. 48cae4
+
+This is the New Brown Color base 
+1. 583101
+2. 603808
+3. d4a276 
+4. ffedd8*/
+
+
+/* This is new color combination 
+1. #1B1464
+2. #0077b6
+3. #00b4d8
+4. #caf0f8 */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+
+.home {
+    /* background-color: pink; */
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.parent_home {
+    /* background-color: yellow; */
+    max-width: 65vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.book_appointment {
+    background-color: #0077b6;
+    padding: 10px;
+    color: white;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.book_appointment p {
+    line-height: 0.5;
+}
+
+.homeopathy_text {
+    text-align: center;
+    padding: 30px;
+    background-color: #00b4d8;
+    border-radius: 0px 20px 0px 20px;
+    color: white;
+}
+
+
+.text_medicine {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /* background-color: pink; */
+    justify-content: space-between;
+}
+
+.text_medicine_text {
+    width: 50%;
+    /* background-color: green; */
+    margin-right: 10px;
+}
+
+.text_medicine_text p {
+    text-align: justify;
+}
+
+
+.text_medicine_img {
+    margin-left: 10px;
+    width: 40%;
+    display: flex;
+    align-self: center;
+}
+
+.text_medicine_img img {
+    border-radius: 0px 20px 0px 20px;
+}
+
+.card_center {
+    background-color: #0077b6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card_center_parent {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.card_center_parent div {
+    background-color: pink;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.card_center p {
+    line-height: 1;
+}
+
+.parent_home_two {
+    max-width: 65vw;
+    margin: auto;
+    margin-top: 40px;
+    /* background-color: pink; */
+}
+
+.parent_home_two_child {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+
+.parent_home_two h1 {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.parent_home_two hr {
+    border: 2px solid black;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.parent_home_two_div {
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #caf0f8;
+    border-bottom: 5px solid #0077b6;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.parent_home_two_div img {
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.parent_home_two_div p {
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+.card_one_div {
+    width: 300px;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card_center_two {
+    /* background-color: #ffedd8; */
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card_center_two_text {
+    display: flex;
+    width: 65%;
+    margin: auto;
+}
+
+.card_center_two_text div {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #caf0f8;
+    border-bottom: 8px solid #0077b6;
+    border-radius: 5px;
+}
+
+
+.parent_home_three {
+    /* background-color: yellow; */
+    max-width: 65vw;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.parent_home_three p {
+    text-align: justify;
+}
+
+.home_three_div p,
+h5 {
+    text-align: center;
+}
+
+.card_center_three {
+    /* background-color: blue; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.card_center_three_text {
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.parent_home_four {
+    background-color: yellow;
+    max-width: 65vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.parent_home_four h3 {
+    text-align: center;
+}
+
+.parent_home_four p {
+    text-align: justify;
+}
+
+.card_center_four {
+    background-color: #caf0f8;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.card_center_four_text {
+    width: 65%;
+    margin: auto;
+    color: black;
+}
+
+.card_center_four_text h1 {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.card_center_four_text hr {
+    border: 2px solid #583101;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.card_center_five {
+    background-color: #caf0f8;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.card_center_five_text {
+    width: 45%;
+    margin: auto;
+    color: black;
+}
+
+.parent_home_five {
+    background-color: #caf0f8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.parent_home_five_div {
+    max-width: 65vw;
+    margin: auto;
+}
+
+
+/* This is new color combination 
+1. #1B1464
+2. #0077b6
+3. #00b4d8
+4. #caf0f8 */
+
+
+/* This is for the Slider */
+.testomonial_section {
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    padding: 20px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    border-radius: 10px;
+}
+
+.swiper img {
+    display: flex;
+    width: 20%;
+    margin: auto;
+    border-radius: 40%;
+    border: 5px solid #00b4d8;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+
+/* This is for the Carosusel  */
+.carosusel_parent {
+    height: 70vh;
+}
+
+.carosusel_img {
+    height: 70vh;
+    object-fit: fill;
+}
+
+.text_div_carosusel_one {
+    /* background-color: #583101; */
+    color: #1B1464;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.text_div_carosusel_one h1 {
+    font-weight: 1000;
+    font-size: 2.5em;
+}
+
+.text_div_carosusel_one p {
+    color: #0077b6;
+    font-size: 1.2em;
+}
+
+
+.text_div_carosusel_two {
+    font-size: larger;
+    color: white;
+    /* background-color: white; */
+}
+
+.text_div_carosusel_two h2 {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.text_div_carosusel_two h4 {
+    font-size: 1.8em;
+}
+
+.text_div_carosusel_three {
+    font-size: larger;
+    color: #0077b6;
+    /* background-color: white; */
+}
+
+.text_div_carosusel_three h2 {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.text_div_carosusel_three h4 {
+    font-size: 1.8em;
+}
+
+
+.text_div_carosusel_four {
+    /* background-color: #583101; */
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.text_div_carosusel_four h1 {
+    font-weight: 1000;
+    font-size: 2.5em;
+}
+
+.text_div_carosusel_four p {
+    color: white;
+    font-size: 1.2em;
+}
+
+.text_div_carosusel_five {
+    font-size: larger;
+    font-weight: bold;
+    text-align: end;
+}
+
+.text_div_carosusel_five h4 {
+    font-size: 1.5em;
+    color: white;
+}
+
+.text_div_carosusel_five h2 {
+    font-size: 2.5em;
+    font-weight: 800;
+    color: white;
+}
+
+.text_div_carosusel_six {
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px 0px 20px 0px;
+}
+
+/* 1550 This is for the PC View */
+@media (max-width: 1550px) {
+
+    .parent_home_two {
+        max-width: 90vw;
+        margin: auto;
+        margin-top: 40px;
+        /* background-color: pink; */
+    }
+
+    .parent_home_two_child {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+    }
+
+    .parent_home_two_div {
+        width: auto;
+        padding: 5px;
+        margin: 5px;
+        background-color: #caf0f8;
+        border-bottom: 8px solid #0077b6;
+        border-radius: 10px;
+        text-align: center;
+    }
+}
+
+/* 1210 This is for the Table View */
+@media (max-width: 1210px) {
+
+    .parent_home_two {
+        max-width: 90vw;
+        margin: auto;
+        margin-top: 40px;
+        /* background-color: pink; */
+    }
+
+    .parent_home_two_child {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+    }
+
+    .parent_home_two_div {
+        width: auto;
+        padding: 10px;
+        margin: 10px;
+        background-color: #caf0f8;
+        border-bottom: 8px solid #0077b6;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+
+    .card_center_five_text {
+        width: 80%;
+    }
+
+    .card_center_three_text {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .card_center_two_text {
+        display: flex;
+        width: 65%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .card_center_two {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* This is new color combination 
+1. #1B1464
+2. #0077b6
+3. #00b4d8
+4. #caf0f8 */
+
+
+
+/* 910 - This is for the Mobile View */
+@media (max-width: 910px) {
+
+    .parent_home {
+        /* background-color: yellow; */
+        max-width: 95vw;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .parent_home_two_child {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-evenly;
+    }
+
+    .homeopathy_text {
+        text-align: center;
+        padding: 20px;
+        background-color: #00b4d8;
+        border-radius: 0px 20px 0px 20px;
+        color: white;
+    }
+
+    .text_medicine {
+        flex-direction: column;
+    }
+
+    .text_medicine_text {
+        width: 100%;
+    }
+
+    .text_medicine_img {
+        width: 100%;
+    }
+
+
+    .card_center_two_text {
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .card_center_two {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .card_center_four {
+        background-color: #caf0f8;
+        margin-top: 20px;
+    }
+
+    .card_center_four_text {
+        width: 90%;
+    }
+
+
+    .parent_home_two {
+        max-width: 95vw;
+        margin: auto;
+        margin-top: 40px;
+        /* background-color: pink; */
+    }
+
+    .parent_home_two_div {
+        width: auto;
+        padding: 5px;
+        border-bottom: 3px solid #0077b6;
+    }
+
+    .card_center_five {
+        margin-top: 50px;
+    }
+
+    .card_center_five_text {
+        width: 85%;
+    }
+
+    .card_center_three {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .card_center_three_text {
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .parent_home_five {
+        background-color: #caf0f8;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .parent_home_five_div {
+        max-width: 95vw;
+        margin: auto;
+    }
+
+
+    .carosusel_parent {
+        height: 40vh;
+    }
+
+    .carosusel_img {
+        height: 40vh;
+        object-fit: fill;
+    }
+
+
+    .text_div_carosusel_one h1 {
+        font-weight: 1000;
+        font-size: 1.5em;
+    }
+
+    .text_div_carosusel_one p {
+        font-size: 0.7em;
+    }
+
+
+    .text_div_carosusel_two h2 {
+        font-weight: 900;
+        font-size: 0.8em;
+    }
+
+    .text_div_carosusel_two h4 {
+        font-size: 0.8em;
+    }
+
+
+    .text_div_carosusel_three h2 {
+        font-weight: 700;
+        font-size: 0.8em;
+    }
+
+    .text_div_carosusel_three h4 {
+        font-size: 0.8em;
+        font-weight: 900;
+    }
+
+
+    .text_div_carosusel_four h1 {
+        font-weight: 1000;
+        font-size: 1.5em;
+    }
+
+    .text_div_carosusel_four p {
+        color: white;
+        font-size: 0.7em;
+    }
+
+
+    .text_div_carosusel_five h4 {
+        font-size: 0.8em;
+        color: white;
+    }
+
+    .text_div_carosusel_five h2 {
+        font-size: 1.5em;
+        font-weight: 800;
+        color: white;
+    }
+
+}

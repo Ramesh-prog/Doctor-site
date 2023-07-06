@@ -1,0 +1,88 @@
+/* This is new color combination 
+1. #1B1464
+2. #0077b6
+3. #00b4d8
+4. #caf0f8 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+
+.tab_parent {
+    /* background-color: yellow; */
+    padding: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.tab_parent h1{
+    font-weight: bold;
+    color: #0077b6;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+
+.right_tab {
+    background-color: #0077b6;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0px 12px 20px rgb(0, 0, 0, 0.2);
+}
+
+.nav_link_tab {
+    color: #0077b6;
+}
+
+.left_tab Button {
+    background-color: #0077b6;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #0077b6;
+}
+
+.appointment_one_data {
+    background-color: #caf0f8;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 12px 20px rgb(0, 0, 0, 0.2);
+}
+
+.appointment_one_data input{
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.blog_post_div {
+    background-color: #caf0f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 12px 20px rgb(0, 0, 0, 0.2);
+}
+
+.blog_input_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_input_div input {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.blog_input_div textarea {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.blog_input_div Button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #0077b6;
+    border: 2px solid #0077b6;
+}
