@@ -22,7 +22,7 @@ const home = () => {
         <div className='text_medicine'>
           <div className='text_medicine_text'>
             <h1>TOP HOMEOPATHY CLINIC ONLINE</h1>
-            <p>Dr Bishnu’s Homeopathy clinic can be accessed from Cuttack, Ganjam , Malkanagiri ,  India and worldwide though it is based in Brahampur. Using modern online technology, from the convenience of your home, you can visit Dr Bishnu’s Online Homeopathic Clinic. This Homeo Care Clinic is a solution for all your health issues under one roof. This is the best place if you are seeking treatment for any diseases. This Homeo Clinic provides a remedy for all ailment. Without exception, it emphasises on the well-being of the sick person and hence, it is undoubtedly one of the unrivalled Homeopathy Clinic in Brahampur. </p>
+            <p>Dr Bishnu’s Homeopathy clinic can be accessed from Khordha, Ganjam , Malkanagiri ,  India and worldwide though it is based in Brahampur. Using modern online technology, from the convenience of your home, you can visit Dr Bishnu’s Online Homeopathic Clinic. This Homeo Care Clinic is a solution for all your health issues under one roof. This is the best place if you are seeking treatment for any diseases. This Homeo Clinic provides a remedy for all ailment. Without exception, it emphasises on the well-being of the sick person and hence, it is undoubtedly one of the unrivalled Homeopathy Clinic in Brahampur. </p>
 
           </div>
           <div className='text_medicine_img'>
